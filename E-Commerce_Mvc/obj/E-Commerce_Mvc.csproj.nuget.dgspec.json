@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alabi\\Source\\Repos\\E-Commerce_App\\E-Commerce_Mvc\\E-Commerce_Mvc.csproj": {}
+    "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\E-Commerce_Mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alabi\\Source\\Repos\\E-Commerce_App\\E-Commerce_Mvc\\E-Commerce_Mvc.csproj": {
+    "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\E-Commerce_Mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alabi\\Source\\Repos\\E-Commerce_App\\E-Commerce_Mvc\\E-Commerce_Mvc.csproj",
+        "projectUniqueName": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\E-Commerce_Mvc.csproj",
         "projectName": "E-Commerce_Mvc",
-        "projectPath": "C:\\Users\\alabi\\Source\\Repos\\E-Commerce_App\\E-Commerce_Mvc\\E-Commerce_Mvc.csproj",
+        "projectPath": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\E-Commerce_Mvc.csproj",
         "packagesPath": "C:\\Users\\alabi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alabi\\Source\\Repos\\E-Commerce_App\\E-Commerce_Mvc\\obj\\",
+        "outputPath": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
