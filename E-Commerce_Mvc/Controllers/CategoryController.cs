@@ -23,6 +23,7 @@ namespace E_Commerce_Mvc.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Create(Category cat)
         {   
@@ -34,6 +35,7 @@ namespace E_Commerce_Mvc.Controllers
             {
                 _context.Categories.Add(cat);
                 _context.SaveChanges();
+                TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index");
             }
               return View();
@@ -61,7 +63,8 @@ namespace E_Commerce_Mvc.Controllers
             {
                  _context.Categories.Update(cat);
                 _context.SaveChanges();
-                return RedirectToAction("Index");
+                TempData["success"] = "Category updated successfully";
+                return RedirectToAction("Index");               
             }
             return View();
         }
@@ -92,7 +95,8 @@ namespace E_Commerce_Mvc.Controllers
             }
                 _context.Categories.Remove(cat);
                 _context.SaveChanges();
-                return RedirectToAction("Index");
+            TempData["success"] = "Category deleted successfully";
+            return RedirectToAction("Index");
         }
     }
 }                                                            
