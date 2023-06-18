@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OuJGI+ILAnfDxCDYISKGly3v5hInUj+/M9On4RsJcoCbVLHGGjWGLsZHvEuDUhLuWHmn2ZV0HcQbvDwBNrgdrA==",
+  "dgSpecHash": "LwJHiz7GoBEEYfNzUkXqhJznU1bHzmgwne8ETVEdlMUae4KDwExBYB+56G1EI8fmoN0hVQVHzlfhypRjaJnp8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alabi\\Desktop\\NewOne\\EComs\\E-Commerce_Mvc\\E-Commerce_Mvc.csproj",
+  "projectFilePath": "C:\\Users\\alabi\\Source\\Repos\\E-Commerce_App\\E-Commerce_Mvc\\E-Commerce_Mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alabi\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\alabi\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

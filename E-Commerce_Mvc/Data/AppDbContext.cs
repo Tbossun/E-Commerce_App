@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using E_Commerce_Mvc.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce_Mvc.Data
 {
@@ -7,5 +8,6 @@ namespace E_Commerce_Mvc.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
+        public DbSet<Category> Categories { get; set; }
     }
 }
