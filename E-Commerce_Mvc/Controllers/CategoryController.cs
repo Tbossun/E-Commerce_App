@@ -1,21 +1,22 @@
-﻿using E_Commerce_Mvc.Data;
-using E_Commerce_Mvc.Models;
+﻿using E_Coms_DataAccess.Data;
+using E_Coms_DataAccess.Repository.IRepository;
+using E_Coms_Models.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace E_Commerce_Mvc.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly AppDbContext _context;
+        private readonly ICategoryRepository _categoryRepo;
 
-        public CategoryController(AppDbContext context)
+        public CategoryController(ICategoryRepository categoryRepo)
         {
-            _context = context;
+            _categoryRepo = categoryRepo;
         }
 
         public IActionResult Index()
         {
-            List<Category> categorList = _context.Categories.ToList();
+            List<Category> categorList = _categoryRepo.GetAll().ToList();
             return View(categorList);
         }
 
@@ -33,8 +34,8 @@ namespace E_Commerce_Mvc.Controllers
             }
             if (ModelState.IsValid)
             {
-                _context.Categories.Add(cat);
-                _context.SaveChanges();
+                _categoryRepo.Add(cat);
+                _categoryRepo.Save();
                 TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index");
             }
@@ -47,7 +48,7 @@ namespace E_Commerce_Mvc.Controllers
             {
                   return NotFound();
             }
-            var category = _context.Categories.FirstOrDefault(c => c.Id == id);
+            var category = _categoryRepo.Get(c => c.Id == id);
             if (category == null)
             {
                   return NotFound();
@@ -61,8 +62,8 @@ namespace E_Commerce_Mvc.Controllers
         {
             if (ModelState.IsValid)
             {
-                 _context.Categories.Update(cat);
-                _context.SaveChanges();
+                 _categoryRepo.Update(cat);
+                _categoryRepo.Save();
                 TempData["success"] = "Category updated successfully";
                 return RedirectToAction("Index");               
             }
@@ -76,7 +77,7 @@ namespace E_Commerce_Mvc.Controllers
             {
                 return NotFound();
             }
-            var category = _context.Categories.FirstOrDefault(c => c.Id == id);
+            var category = _categoryRepo.Get(c => c.Id == id);
             if (category == null)
             {
                 return NotFound();
@@ -88,13 +89,13 @@ namespace E_Commerce_Mvc.Controllers
         [HttpPost, ActionName("Delete")]
         public IActionResult DeleteCategory(int? id)
         {
-            Category cat = _context.Categories.FirstOrDefault(c => c.Id == id);
+            Category cat = _categoryRepo.Get(c => c.Id == id);
             if (cat == null)
             {
                 return NotFound();
             }
-                _context.Categories.Remove(cat);
-                _context.SaveChanges();
+                _categoryRepo.Remove(cat);
+                _categoryRepo.Save();
             TempData["success"] = "Category deleted successfully";
             return RedirectToAction("Index");
         }

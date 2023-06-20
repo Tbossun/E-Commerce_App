@@ -148,3 +148,7 @@ C:\Users\alabi\Source\Repos\E-Commerce_App\E-Commerce_Mvc\obj\Debug\net7.0\refin
 C:\Users\alabi\Source\Repos\E-Commerce_App\E-Commerce_Mvc\obj\Debug\net7.0\E-Commerce_Mvc.pdb
 C:\Users\alabi\Source\Repos\E-Commerce_App\E-Commerce_Mvc\obj\Debug\net7.0\E-Commerce_Mvc.genruntimeconfig.cache
 C:\Users\alabi\Source\Repos\E-Commerce_App\E-Commerce_Mvc\obj\Debug\net7.0\ref\E-Commerce_Mvc.dll
+C:\Users\alabi\source\repos\E-Commerce_App\E-Commerce_Mvc\bin\Debug\net7.0\E-Coms_DataAccess.dll
+C:\Users\alabi\source\repos\E-Commerce_App\E-Commerce_Mvc\bin\Debug\net7.0\E-Coms_Models.dll
+C:\Users\alabi\source\repos\E-Commerce_App\E-Commerce_Mvc\bin\Debug\net7.0\E-Coms_DataAccess.pdb
+C:\Users\alabi\source\repos\E-Commerce_App\E-Commerce_Mvc\bin\Debug\net7.0\E-Coms_Models.pdb

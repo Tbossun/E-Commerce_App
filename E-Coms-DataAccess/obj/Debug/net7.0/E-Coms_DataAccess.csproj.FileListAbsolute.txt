@@ -1,0 +1,17 @@
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\obj\Debug\net7.0\E-Coms_DataAccess.csproj.AssemblyReference.cache
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\obj\Debug\net7.0\E-Coms_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\obj\Debug\net7.0\E-Coms_DataAccess.AssemblyInfoInputs.cache
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\obj\Debug\net7.0\E-Coms_DataAccess.AssemblyInfo.cs
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\obj\Debug\net7.0\E-Coms_DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\bin\Debug\net7.0\E-Coms_DataAccess.deps.json
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\bin\Debug\net7.0\E-Coms_DataAccess.runtimeconfig.json
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\bin\Debug\net7.0\E-Coms_DataAccess.dll
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\bin\Debug\net7.0\E-Coms_DataAccess.pdb
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\bin\Debug\net7.0\E-Coms_Models.dll
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\bin\Debug\net7.0\E-Coms_Models.pdb
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\obj\Debug\net7.0\E-Coms_DataAccess.csproj.CopyComplete
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\obj\Debug\net7.0\E-Coms_DataAccess.dll
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\obj\Debug\net7.0\refint\E-Coms_DataAccess.dll
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\obj\Debug\net7.0\E-Coms_DataAccess.pdb
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\obj\Debug\net7.0\E-Coms_DataAccess.genruntimeconfig.cache
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms-DataAccess\obj\Debug\net7.0\ref\E-Coms_DataAccess.dll
