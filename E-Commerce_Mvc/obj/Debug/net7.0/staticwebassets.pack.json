@@ -13,12 +13,68 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\06df0b80-35e4-4770-82bc-eef0268f6ea1.png",
+      "PackagePath": "staticwebassets\\images\\products\\06df0b80-35e4-4770-82bc-eef0268f6ea1.png"
+    },
+    {
+      "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\286c9d54-7c17-408e-b1aa-fb8de3172c1f.png",
+      "PackagePath": "staticwebassets\\images\\products\\286c9d54-7c17-408e-b1aa-fb8de3172c1f.png"
+    },
+    {
+      "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\37332965-9675-4c7c-bba5-390c6410af1c.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\37332965-9675-4c7c-bba5-390c6410af1c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\569c59b6-e7d5-4dbb-9886-0e31cebe1584.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\569c59b6-e7d5-4dbb-9886-0e31cebe1584.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\57ea0aaa-a4c3-458d-8ddc-84fb114a3798.jpeg",
+      "PackagePath": "staticwebassets\\images\\products\\57ea0aaa-a4c3-458d-8ddc-84fb114a3798.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\59a85ed3-8674-4d21-90ea-9af10fde457e.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\59a85ed3-8674-4d21-90ea-9af10fde457e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\5d54b8e2-a2fd-4ab5-a38e-95045d668fbf.png",
+      "PackagePath": "staticwebassets\\images\\products\\5d54b8e2-a2fd-4ab5-a38e-95045d668fbf.png"
+    },
+    {
+      "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\751a7607-091b-4a1b-b026-543d37890c2d.png",
+      "PackagePath": "staticwebassets\\images\\products\\751a7607-091b-4a1b-b026-543d37890c2d.png"
+    },
+    {
       "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\77dd6f99-5d61-4e3c-82ee-5633c72419be.jpg",
       "PackagePath": "staticwebassets\\images\\products\\77dd6f99-5d61-4e3c-82ee-5633c72419be.jpg"
     },
     {
       "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\7b9308da-6791-4be6-9fa0-46aadcc04ae1.png",
       "PackagePath": "staticwebassets\\images\\products\\7b9308da-6791-4be6-9fa0-46aadcc04ae1.png"
+    },
+    {
+      "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\8a351d7c-d1c5-43f7-a5d2-68afbcabe267.jpeg",
+      "PackagePath": "staticwebassets\\images\\products\\8a351d7c-d1c5-43f7-a5d2-68afbcabe267.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\9234e474-91fd-42a1-b68a-5e4404a08c4d.jpeg",
+      "PackagePath": "staticwebassets\\images\\products\\9234e474-91fd-42a1-b68a-5e4404a08c4d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\a422a748-fe59-4f56-acec-f435f2a690a9.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\a422a748-fe59-4f56-acec-f435f2a690a9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\aae4d378-48bc-4c0a-8eab-eb533a17fb5c.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\aae4d378-48bc-4c0a-8eab-eb533a17fb5c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\c1f54dc3-a850-4ecb-a2dd-710629125991.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\c1f54dc3-a850-4ecb-a2dd-710629125991.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
       "Id": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\js\\site.js",

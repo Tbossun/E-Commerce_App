@@ -19,6 +19,7 @@ namespace E_Coms_DataAccess.Repository
         {
             _appDbContext = appDbContext;
             this.dbset = _appDbContext.Set<T>();
+            _appDbContext.Products.Include(u => u.Category).Include(u => u.CategoryId);
         }
 
         public void Add(T entity)
@@ -26,15 +27,31 @@ namespace E_Coms_DataAccess.Repository
             dbset.Add(entity);
         }
 
-        public T Get(Expression<Func<T, bool>> filter)
+        public T Get(Expression<Func<T, bool>> filter, string? includeProps = null)
         {
             IQueryable<T> query = dbset.Where(filter);
+             query = query.Where(filter);
+            if (!string.IsNullOrEmpty(includeProps))
+            {
+                foreach (var prop in includeProps.
+                    Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(prop);
+                }
+            }
             return query.FirstOrDefault();
         }
 
-        public IEnumerable<T> GetAll()
+        public IEnumerable<T> GetAll(string? includeProps = null)
         {
             IQueryable<T> query = dbset;
+            if(!string.IsNullOrEmpty(includeProps))
+            {
+               foreach(var prop in includeProps.Split(new char[] {','}, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(prop);
+                }
+            }
             return query.ToList();
         }
 

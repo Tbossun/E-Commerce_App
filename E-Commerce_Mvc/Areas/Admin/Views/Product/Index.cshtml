@@ -20,7 +20,8 @@
             </a>
         </div>
     </div>
-    <table class="table table-bordered table-striped">
+    <table id="productTable" class="table table-bordered table-striped" style="width:100%">
+        <thead>
         <tr class="bg-red text-white pb-2 border-bottom">
                 <th>
                     Product name
@@ -37,8 +38,12 @@
                 <th>
                     Product Price
                 </th>
+                <th>
+                    Product Category
+                </th>
             </tr>
-        <tbody>
+            </thead>
+        @*<tbody>
             @foreach (var Cat in Model)
             {
                 <tr>
@@ -57,6 +62,9 @@
                         <td>
                             @Cat.Price
                         </td>
+                        <td>
+                            @Cat.Category.Name
+                        </td>
                     <td>
                         <div class="w-75 btn-group" role="group">
                             <a asp-controller="Product" asp-action="UpSert" asp-route-id="@Cat.ProductId" class="btn btn-primary mx-1">
@@ -69,8 +77,11 @@
                     </td>
                 </tr>
             }
-        </tbody>
+        </tbody>*@
 
     </table>
 </div>    
 </div>
+@section Scripts{
+    <script src="~/js/product.js"></script>
+}

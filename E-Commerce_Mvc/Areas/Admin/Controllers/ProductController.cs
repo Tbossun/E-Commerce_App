@@ -20,7 +20,7 @@ namespace E_Commerce_Mvc.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            List<Product> productList = _unitOfWork.Product.GetAll().ToList();
+            List<Product> productList = _unitOfWork.Product.GetAll(includeProps : "Category").ToList();
             
             return View(productList);
         }
@@ -191,5 +191,18 @@ namespace E_Commerce_Mvc.Areas.Admin.Controllers
             TempData["success"] = "Product deleted successfully";
             return RedirectToAction("Index");
         }
+
+
+
+        #region API CALLS
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            List<Product> productList = _unitOfWork.Product.GetAll(includeProps: "Category").ToList();
+
+            return Json(new { data = productList });
+        }
+        #endregion
     }
+
 }
