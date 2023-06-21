@@ -1,0 +1,12 @@
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms_Utils\bin\Debug\net7.0\E-Coms_Utils.deps.json
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms_Utils\bin\Debug\net7.0\E-Coms_Utils.dll
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms_Utils\bin\Debug\net7.0\E-Coms_Utils.pdb
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms_Utils\obj\Debug\net7.0\E-Coms_Utils.csproj.AssemblyReference.cache
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms_Utils\obj\Debug\net7.0\E-Coms_Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms_Utils\obj\Debug\net7.0\E-Coms_Utils.AssemblyInfoInputs.cache
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms_Utils\obj\Debug\net7.0\E-Coms_Utils.AssemblyInfo.cs
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms_Utils\obj\Debug\net7.0\E-Coms_Utils.csproj.CoreCompileInputs.cache
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms_Utils\obj\Debug\net7.0\E-Coms_Utils.dll
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms_Utils\obj\Debug\net7.0\refint\E-Coms_Utils.dll
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms_Utils\obj\Debug\net7.0\E-Coms_Utils.pdb
+C:\Users\alabi\source\repos\E-Commerce_App\E-Coms_Utils\obj\Debug\net7.0\ref\E-Coms_Utils.dll

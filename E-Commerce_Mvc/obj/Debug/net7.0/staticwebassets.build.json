@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5rZv6WclTmQDwyfAaIuIYNdzemR1/ddWnjp6fIplpXw=",
+  "Hash": "8SzczE6LnmH/lzl2FAjeIlftUYho36spASvfIoDZuTU=",
   "Source": "E-Commerce_Mvc",
   "BasePath": "_content/E-Commerce_Mvc",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\77dd6f99-5d61-4e3c-82ee-5633c72419be.jpg",
+      "SourceId": "E-Commerce_Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\",
+      "BasePath": "_content/E-Commerce_Mvc",
+      "RelativePath": "images/products/77dd6f99-5d61-4e3c-82ee-5633c72419be.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\77dd6f99-5d61-4e3c-82ee-5633c72419be.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\images\\products\\7b9308da-6791-4be6-9fa0-46aadcc04ae1.png",
+      "SourceId": "E-Commerce_Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\",
+      "BasePath": "_content/E-Commerce_Mvc",
+      "RelativePath": "images/products/7b9308da-6791-4be6-9fa0-46aadcc04ae1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\7b9308da-6791-4be6-9fa0-46aadcc04ae1.png"
     },
     {
       "Identity": "C:\\Users\\alabi\\source\\repos\\E-Commerce_App\\E-Commerce_Mvc\\wwwroot\\js\\site.js",

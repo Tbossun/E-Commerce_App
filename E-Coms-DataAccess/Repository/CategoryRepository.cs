@@ -18,11 +18,6 @@ namespace E_Coms_DataAccess.Repository
             _appDbContext = appDbContext;
         }
 
-        public void Save()
-        {
-           _appDbContext.SaveChanges();
-        }
-
         public void Update(Category category)
         {
             _appDbContext.Update(category);

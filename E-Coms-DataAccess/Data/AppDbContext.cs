@@ -30,8 +30,97 @@ namespace E_Coms_DataAccess.Data
                     Name = "Bags",
                     DisplayOrder = 3
                 });
+            modelBuilder.Entity<Product>().HasData(
+                new Product
+                {
+                    ProductId = 1,
+                    ProductName = "Gucci Bag",
+                    ProductType = "Bag",
+                    Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
+                    BatchNumber = "SWD9999001",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 3,
+                    ProductImage = ""
+
+                },
+                new Product
+                {
+                    ProductId = 2,
+                    ProductName = "Sneaker",
+                    ProductType = "Shoe",
+                    Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
+                    BatchNumber = "CAW777777701",
+                    ListPrice = 40,
+                    Price = 30,
+                    Price50 = 25,
+                    Price100 = 20,
+                    CategoryId = 2,
+                    ProductImage = ""
+                },
+                new Product
+                {
+                    ProductId = 3,
+                    ProductName = "Jeans",
+                    ProductType = "Cloth",
+                    Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
+                    BatchNumber = "RITO5555501",
+                    ListPrice = 55,
+                    Price = 50,
+                    Price50 = 40,
+                    Price100 = 35,
+                    CategoryId = 1,
+                    ProductImage = ""
+                },
+                new Product
+                {
+                    ProductId = 4,
+                    ProductName = "D & G",
+                    ProductType = "Bag",
+                    Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
+                    BatchNumber = "WS3333333301",
+                    ListPrice = 70,
+                    Price = 65,
+                    Price50 = 60,
+                    Price100 = 55,
+                    CategoryId = 3,
+                    ProductImage = ""
+                },
+                new Product
+                {
+                    ProductId = 5,
+                    ProductName = "Crocs",
+                    ProductType = "Shoe",
+                    Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
+                    BatchNumber = "SOTJ1111111101",
+                    ListPrice = 30,
+                    Price = 27,
+                    Price50 = 25,
+                    Price100 = 20 ,
+                    CategoryId = 2,
+                    ProductImage = ""
+                },
+                new Product
+                {
+                    ProductId = 6,
+                    ProductName = "Adire",
+                    ProductType = "Cloth",
+                    Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
+                    BatchNumber = "FOT000000001",
+                    ListPrice = 25,
+                    Price = 23,
+                    Price50 = 22,
+                    Price100 = 20 ,
+                    CategoryId = 1  ,
+                    ProductImage = ""
+                }
+                );
+                
             base.OnModelCreating(modelBuilder);
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }

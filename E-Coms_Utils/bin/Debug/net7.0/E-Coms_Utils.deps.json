@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "E-Coms_Utils/1.0.0": {
+        "runtime": {
+          "E-Coms_Utils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "E-Coms_Utils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

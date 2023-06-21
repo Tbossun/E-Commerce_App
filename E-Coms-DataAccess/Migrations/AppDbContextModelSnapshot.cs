@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace ECommerceMvc.Migrations
+namespace EComsDataAccess.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot
@@ -21,7 +21,7 @@ namespace ECommerceMvc.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("E_Commerce_Mvc.Models.Category", b =>
+            modelBuilder.Entity("E_Coms_Models.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -59,6 +59,152 @@ namespace ECommerceMvc.Migrations
                             DisplayOrder = 3,
                             Name = "Bags"
                         });
+                });
+
+            modelBuilder.Entity("E_Coms_Models.Models.Product", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductId"));
+
+                    b.Property<string>("BatchNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("ListPrice")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price100")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price50")
+                        .HasColumnType("float");
+
+                    b.Property<string>("ProductImage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProductType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ProductId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            ProductId = 1,
+                            BatchNumber = "SWD9999001",
+                            CategoryId = 3,
+                            Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
+                            ListPrice = 99.0,
+                            Price = 90.0,
+                            Price100 = 80.0,
+                            Price50 = 85.0,
+                            ProductImage = "",
+                            ProductName = "Gucci Bag",
+                            ProductType = "Bag"
+                        },
+                        new
+                        {
+                            ProductId = 2,
+                            BatchNumber = "CAW777777701",
+                            CategoryId = 2,
+                            Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
+                            ListPrice = 40.0,
+                            Price = 30.0,
+                            Price100 = 20.0,
+                            Price50 = 25.0,
+                            ProductImage = "",
+                            ProductName = "Sneaker",
+                            ProductType = "Shoe"
+                        },
+                        new
+                        {
+                            ProductId = 3,
+                            BatchNumber = "RITO5555501",
+                            CategoryId = 1,
+                            Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
+                            ListPrice = 55.0,
+                            Price = 50.0,
+                            Price100 = 35.0,
+                            Price50 = 40.0,
+                            ProductImage = "",
+                            ProductName = "Jeans",
+                            ProductType = "Cloth"
+                        },
+                        new
+                        {
+                            ProductId = 4,
+                            BatchNumber = "WS3333333301",
+                            CategoryId = 3,
+                            Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
+                            ListPrice = 70.0,
+                            Price = 65.0,
+                            Price100 = 55.0,
+                            Price50 = 60.0,
+                            ProductImage = "",
+                            ProductName = "D & G",
+                            ProductType = "Bag"
+                        },
+                        new
+                        {
+                            ProductId = 5,
+                            BatchNumber = "SOTJ1111111101",
+                            CategoryId = 2,
+                            Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
+                            ListPrice = 30.0,
+                            Price = 27.0,
+                            Price100 = 20.0,
+                            Price50 = 25.0,
+                            ProductImage = "",
+                            ProductName = "Crocs",
+                            ProductType = "Shoe"
+                        },
+                        new
+                        {
+                            ProductId = 6,
+                            BatchNumber = "FOT000000001",
+                            CategoryId = 1,
+                            Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
+                            ListPrice = 25.0,
+                            Price = 23.0,
+                            Price100 = 20.0,
+                            Price50 = 22.0,
+                            ProductImage = "",
+                            ProductName = "Adire",
+                            ProductType = "Cloth"
+                        });
+                });
+
+            modelBuilder.Entity("E_Coms_Models.Models.Product", b =>
+                {
+                    b.HasOne("E_Coms_Models.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }
